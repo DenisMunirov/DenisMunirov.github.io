@@ -1,0 +1,169 @@
+@font-face{
+    font-family: beer-money12;
+    src: url(beer-money12.ttf);
+}
+
+/*HEADER*/
+/*border-box
+Комментрии для меня. Свойства wight и height включают в себя значения полей и границ, но не отступов (margin).*/
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: black;
+    box-sizing: border-box;
+    font-family: beer-money12;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: rgb(162, 41, 218);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.menu{
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-title{
+    margin-right: 20px;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.social-networks{
+    display: flex;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-menu{
+    flex-grow: 3;
+}
+.banner-titile, .banner-description{
+    text-align: 50px;
+    color: white;
+}
+
+.banner-titile{
+    font-size: 48px;
+    font-family: beer-money12;
+}
+
+/*cover 
+Комментарии для меня
+Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока./*/
+
+.banner-section{
+    padding: 100px 0;
+    background: url(img/banner\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.cards-section{
+    padding: 50px 0px;
+    background: url(img/banner\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cards-title, .cards-description{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards-title{
+    font-family: beer-money12;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background:white;
+    box-shadow: 0px 2px 40px 0px #b073b3;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-title{
+    font-family: beer-money12;
+}
+.card-link{
+    text-decoration: none;
+    color:white
+}
+
+.card-button{
+    text-align: center;
+    background: blueviolet;
+    padding: 10px 70 px;
+    border-radius: 10 px;
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background: url(img/footer.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.card-button{
+    cursor: pointer;
+}
+
